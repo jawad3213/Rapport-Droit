@@ -1,0 +1,154 @@
+%% ============================================================
+%%  main.tex — الملف الرئيسي للتقرير
+%%  تقرير حول الشغل المؤقت والمناولة في مدونة الشغل المغربية
+%% ============================================================
+
+\documentclass[12pt, a4paper]{report}
+
+%% ─── الحزم الأساسية ───────────────────────────────────────
+\usepackage{fontspec}           % دعم الخطوط OpenType (XeLaTeX/LuaLaTeX)
+\usepackage{polyglossia}        % دعم تعدد اللغات بما فيها العربية
+\usepackage{geometry}           % هوامش الصفحة
+\usepackage{graphicx}           % إدراج الصور
+\usepackage{xcolor}             % الألوان
+\usepackage{titlesec}           % تخصيص عناوين الفصول
+\usepackage{titletoc}           % تخصيص فهرس المحتويات
+\usepackage{fancyhdr}           % ترويسات وتذييلات مخصصة
+\usepackage{hyperref}           % روابط تشعبية داخلية
+\usepackage{microtype}          % جودة الطباعة
+\usepackage{setspace}           % تباعد الأسطر
+\usepackage{enumitem}           % تخصيص القوائم
+\usepackage{booktabs}           % جداول احترافية
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tcolorbox}          % صناديق ملونة
+\usepackage{emptypage}          % صفحات فارغة بدون ترويسة
+
+%% ─── إعداد اللغة العربية ──────────────────────────────────
+\setdefaultlanguage[numerals=maghrib]{arabic}
+\setotherlanguage{french}
+\setotherlanguage{english}
+
+\newfontfamily\arabicfont[
+    Script=Arabic,
+    Scale=1.1,
+    Ligatures=TeX
+]{Amiri}                        % خط أميري (يمكن تغييره إلى Scheherazade New)
+
+%% ─── هوامش الصفحة ────────────────────────────────────────
+\geometry{
+    top=2.5cm,
+    bottom=2.5cm,
+    left=2.5cm,
+    right=3cm,
+    headheight=15pt
+}
+
+%% ─── الألوان المخصصة ──────────────────────────────────────
+\definecolor{maincolor}{RGB}{0, 51, 102}       % أزرق داكن رسمي
+\definecolor{accentcolor}{RGB}{180, 0, 0}      % أحمر داكن
+\definecolor{lightgray}{RGB}{245, 245, 245}
+\definecolor{sectioncolor}{RGB}{0, 80, 140}
+
+%% ─── تنسيق العناوين ──────────────────────────────────────
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\color{maincolor}}
+  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{accentcolor}}
+  {\thesubsection}{1em}{}
+
+%% ─── ترويسات وتذييلات ─────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\small\color{maincolor}\rightmark}
+\fancyhead[L]{\small\color{maincolor}الشغل المؤقت والمناولة}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.3pt}
+
+%% ─── تباعد الأسطر ────────────────────────────────────────
+\setstretch{1.5}
+
+%% ─── إعداد الروابط ───────────────────────────────────────
+\hypersetup{
+    colorlinks=true,
+    linkcolor=maincolor,
+    urlcolor=accentcolor,
+    citecolor=sectioncolor,
+    pdfauthor={فريق الدراسة - المجموعة 8},
+    pdftitle={الشغل المؤقت والمناولة في مدونة الشغل المغربية},
+    pdfsubject={دراسة قانونية وتطبيقية},
+    pdflang={ar}
+}
+
+%% ============================================================
+%%  بداية الوثيقة
+%% ============================================================
+\begin{document}
+
+%% ─── صفحة الغلاف ─────────────────────────────────────────
+\input{chapters/cover}
+
+%% ─── صفحة فارغة بعد الغلاف ───────────────────────────────
+\cleardoublepage
+
+%% ─── الفهرس ──────────────────────────────────────────────
+\tableofcontents
+\cleardoublepage
+
+%% ─── المقدمة العامة ───────────────────────────────────────
+\input{chapters/introduction}
+\cleardoublepage
+
+%% ─── الفصل الأول: الإطار المفاهيمي ───────────────────────
+\input{chapters/chapitre1}
+\cleardoublepage
+
+%% ─── الفصل الثاني: الإطار القانوني ───────────────────────
+\input{chapters/chapitre2}
+\cleardoublepage
+
+%% ─── الفصل الثالث: الحالات المسموح بها ───────────────────
+\input{chapters/chapitre3}
+\cleardoublepage
+
+%% ─── الفصل الرابع: الالتزامات ────────────────────────────
+\input{chapters/chapitre4}
+\cleardoublepage
+
+%% ─── الفصل الخامس: المسؤولية القانونية ───────────────────
+\input{chapters/chapitre5}
+\cleardoublepage
+
+%% ─── الفصل السادس: دور مفتش الشغل ────────────────────────
+\input{chapters/chapitre6}
+\cleardoublepage
+
+%% ─── الفصل السابع: الآثار الاجتماعية والاقتصادية ─────────
+\input{chapters/chapitre7}
+\cleardoublepage
+
+%% ─── الفصل الثامن: دراسة الحالة ──────────────────────────
+\input{chapters/chapitre8}
+\cleardoublepage
+
+%% ─── الفصل التاسع: الاجتهاد القضائي والتجارب المقارنة ────
+\input{chapters/chapitre9}
+\cleardoublepage
+
+%% ─── الفصل العاشر: الاختلالات والتوصيات ──────────────────
+\input{chapters/chapitre10}
+\cleardoublepage
+
+%% ─── الخاتمة والملاحق والمراجع ───────────────────────────
+\input{chapters/conclusion}
+
+\end{document}
