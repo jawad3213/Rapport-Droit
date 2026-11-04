@@ -1,0 +1,47 @@
+# ============================================================
+# .gitignore — LaTeX & Build Artifacts
+# ============================================================
+
+# LaTeX Auxiliary and Temporary Files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.vrb
+*.xdv
+*.fmt
+*.fot
+*.maf
+*.mtc*
+
+# Build logs and diagnostics
+compile_log.txt
+*.bak
+*.tmp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VS Code workspace cache (preserves settings.json)
+.vscode/*.log
+
