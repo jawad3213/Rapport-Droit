@@ -1,0 +1,623 @@
+﻿This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-09-09>
+(c:/texlive/2026/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.sty
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(c:/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf))
+(c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def)))
+(c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
+(c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(c:/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/titlesec/titletoc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+(c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+(c:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+(c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(c:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def)
+(c:/texlive/2026/texmf-dist/tex/latex/url/url.sty)
+(c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
+(c:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def
+(c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype.sty
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype-xetex.def)
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/microtype.cfg))
+(c:/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(c:/texlive/2026/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/pgf.revision.tex)))
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.co
+de.tex)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))
+))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric
+.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.t
+ex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.co
+de.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithm
+etics.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
+e.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
+x)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
+.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
+ode.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex)
+
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.co
+de.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code
+.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (c:/texlive/2026/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex)))
+ (c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
+y)
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
+y)) (c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(c:/texlive/2026/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex))
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
+de.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex)
+(c:/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
+brarytopaths.code.tex)))
+(c:/texlive/2026/texmf-dist/tex/latex/tools/verbatim.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/environ/environ.sty
+(c:/texlive/2026/texmf-dist/tex/latex/trimspaces/trimspaces.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/emptypage/emptypage.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/gloss-arabic.ldf
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/bidi.sty
+****************************************************
+* 
+* bidi package (Bidirectional typesetting with
+* plain TeX and LaTeX formats in XeTeX and LuaTeX engines)
+* 
+* Description: A convenient interface for
+* typesetting bidirectional texts in plain TeX
+* and LaTeX. The package includes adaptations
+* for use with many other commonly-used packages.
+* 
+* Copyright (c) 2007--2026 Vafa Khalighi
+* Copyright (c) 2018--2020 bidi-tex GitHub organization
+* 
+* v26.01.08 (Release Iran), 2026/01/08
+* 
+* License: LaTeX Project Public License, version
+* 1.3c or higher (your choice)
+* 
+* Location on CTAN: /macros/unicodetex/generic/bidi
+* 
+* Issue tracker: https://github.com/xepersian/bidi/issues
+* 
+* Primary author of bidi package: Vafa Khalighi.
+* 
+****************************************************
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/biditools.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/zref/zref-abspage.sty
+(c:/texlive/2026/texmf-dist/tex/latex/zref/zref-base.sty
+(c:/texlive/2026/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/auxhook/auxhook.sty)))
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/latex-xetex-bidi.def
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/report-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/amsmath-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/amstext-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/array-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/color-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/fancyhdr-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/geometry-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/graphicx-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/pgfsys-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/tcolorbox-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/titlesec-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/titletoc-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/xcolor-xetex-bidi.def)
+(c:/texlive/2026/texmf-dist/tex/latex/bidi/pgfcorescopes.code-xetex-bidi.def)))
+ (c:/texlive/2026/texmf-dist/tex/latex/polyglossia/arabicnumbers.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/hijrical.sty
+(c:/texlive/2026/texmf-dist/tex/latex/tools/calc.sty)
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/cal-util.def)))
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/gloss-french.ldf)
+(c:/texlive/2026/texmf-dist/tex/latex/polyglossia/gloss-english.ldf)
+(c:/texlive/2026/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def) (./main.aux
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./main.out) (./main.out)
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 95.
+
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg)
+(./chapters/cover.tex (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(c:/texlive/2026/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+\endL or \endR problem (1 missing, 1 extra) detected at line 36
+[][][][][]$[]$ [][][][][]
+! Undefined control sequence.
+\@tabular ...eginR \fi \UseMathForPositioningText 
+                                                  $\col@sep \tabcolsep \let ...
+l.44         \begin{tabular}
+                            {c}
+[1]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[2]) (./main.toc [1]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[2]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[3])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[4] (./chapters/introduction.tex [5])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.38899pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.38899pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.38899pt}.
+
+[6] (./chapters/chapitre1.tex
+باب 1.
+[7]
+! Undefined control sequence.
+\@tabular ...eginR \fi \UseMathForPositioningText 
+                                                  $\col@sep \tabcolsep \let ...
+l.47 \begin{tabular}
+                    {|>{\bfseries\centering}p{3.5cm}|p{5cm}|p{5cm}|}
+! Undefined control sequence.
+<recently read> \rowcolor 
+                          
+l.49 \rowcolor
+              {maincolor!20}
+)
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[8] (./chapters/chapitre2.tex
+باب 2.
+[9]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.67755pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.67755pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.67755pt}.
+
+[10])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[11] (./chapters/chapitre3.tex
+باب 3.
+[12])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.5571pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.5571pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.5571pt}.
+
+[13] (./chapters/chapitre4.tex
+باب 4.
+[14]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[15])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.5571pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.5571pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.5571pt}.
+
+[16] (./chapters/chapitre5.tex
+باب 5.
+
+Overfull \hbox (4.72234pt too wide) in paragraph at lines 32--32
+[]|[]\TU/Amiri(0)/b/n/17.28 المسؤولية التضامنية (الأجور، الضمان الاجتماعي، حواد
+ث الشغل)| [] 
+[17])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.5571pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.5571pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.5571pt}.
+
+[18] (./chapters/chapitre6.tex
+باب 6.
+[19]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[20])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[21] (./chapters/chapitre7.tex
+باب 7.
+[22]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.3526pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.3526pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.3526pt}.
+
+[23])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 25.3526pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.3526pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-10.3526pt}.
+
+[24] (./chapters/chapitre8.tex
+باب 8.
+[25]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.5571pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.5571pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.5571pt}.
+
+[26])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 26.67755pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.67755pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-11.67755pt}.
+
+[27] (./chapters/chapitre9.tex
+باب 9.
+[28]
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[29])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[30] (./chapters/chapitre10.tex
+باب 10.
+[31])
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+\endL or \endR problem (0 missing, 1 extra) has occurred while \output is activ
+e
+[][][][] 
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 24.01996pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.01996pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-9.01996pt}.
+
+[32] (./chapters/conclusion.tex [33]
+الملاحق ا.
+[34]
+الملاحق ب.
+[35]
+
+! Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Arabic"
+(polyglossia)                script!
+(polyglossia)                Please define \arabicfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.93 ...     والكفاءات: \texttt{www.emploi.gov.ma}
+                                                  
+
+Overfull \hbox (9.65373pt too wide) in paragraph at lines 92--94
+[][]\TU/Amiri(0)/m/n/12 الموقع الرسمي لوزارة الإدماج الاقتصادي والمقاولة الصغير
+ة والتشغيل والكفاءات: \TU/lmtt/m/n/12 www.emploi.gov.ma []
+
+! Package polyglossia Error: The current main monospace font,
+(polyglossia)                lmmono12-regular, does not contain the "Arabic"
+(polyglossia)                script!
+(polyglossia)                Please define \arabicfonttt with \newfontfamily
+(polyglossia)                command
+
+Type <return> to continue.
+ ...                                              
+                                                  
+l.94 ... منظمة العمل الدولية: \texttt{www.ilo.org}
+                                                  
+) [36] (./main.aux) )
+(see the transcript file for additional information)
+Output written on main.pdf (38 pages).
+Transcript written on main.log.

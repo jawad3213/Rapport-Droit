@@ -1,3 +1,4 @@
+
 %% ============================================================
 %%  main.tex — الملف الرئيسي للتقرير
 %%  تقرير حول الشغل المؤقت والمناولة في مدونة الشغل المغربية
@@ -21,10 +22,15 @@
 \usepackage{booktabs}           % جداول احترافية
 \usepackage{array}
 \usepackage{multirow}
+\usepackage{colortbl}           % تلوين خلايا الجداول (\rowcolor)
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{tcolorbox}          % صناديق ملونة
 \usepackage{emptypage}          % صفحات فارغة بدون ترويسة
+
+%% إصلاح توافق bidi مع جداول LaTeX (حل خطأ UseMathForPositioningText في bidi 2026)
+\providecommand{\UseMathForPositioningText}{}
+\providecommand{\UseTaggingSocket}[1]{}
 
 %% ─── إعداد اللغة العربية ──────────────────────────────────
 \setdefaultlanguage[numerals=maghrib]{arabic}
@@ -37,13 +43,16 @@
     Ligatures=TeX
 ]{Amiri}                        % خط أميري (يمكن تغييره إلى Scheherazade New)
 
+%% خط أحادي المسافة
+\setmonofont{Courier New}
+
 %% ─── هوامش الصفحة ────────────────────────────────────────
 \geometry{
     top=2.5cm,
     bottom=2.5cm,
     left=2.5cm,
     right=3cm,
-    headheight=15pt
+    headheight=30pt
 }
 
 %% ─── الألوان المخصصة ──────────────────────────────────────
@@ -68,8 +77,9 @@
 %% ─── ترويسات وتذييلات ─────────────────────────────────────
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[R]{\small\color{maincolor}\rightmark}
-\fancyhead[L]{\small\color{maincolor}الشغل المؤقت والمناولة}
+%% نستخدم \protect\RLE لتفادي تحذيرات endL/endR من bidi+fancyhdr
+\fancyhead[R]{\small\color{maincolor}\protect\RLE{\rightmark}}
+\fancyhead[L]{\small\color{maincolor}\protect\RLE{الشغل المؤقت والمناولة}}
 \fancyfoot[C]{\small\thepage}
 \renewcommand{\headrulewidth}{0.5pt}
 \renewcommand{\footrulewidth}{0.3pt}
@@ -152,3 +162,4 @@
 \input{chapters/conclusion}
 
 \end{document}
+

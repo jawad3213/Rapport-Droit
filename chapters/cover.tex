@@ -3,82 +3,56 @@
 %% ============================================================
 \begin{titlepage}
 \thispagestyle{empty}
-
-%% خلفية ملونة ناعمة
 \pagecolor{maincolor}
 \color{white}
 
-\vspace*{0.5cm}
+\vspace*{0.8cm}
+{\centering
 
 %% ─── الجهة المؤسسية ───────────────────────────────────────
-\begin{center}
-    {\large\bfseries المملكة المغربية}\\[0.3cm]
-    {\large وزارة التربية الوطنية والتعليم العالي}\\[0.2cm]
-    {\normalsize المعهد / المؤسسة التعليمية}\\[0.2cm]
-    \noindent\rule{\textwidth}{0.5pt}\\[0.5cm]
+{\large\bfseries المملكة المغربية}\\[0.3cm]
+{\large وزارة التربية الوطنية والتعليم العالي}\\[0.2cm]
+{\normalsize المعهد / المؤسسة التعليمية}\\[0.4cm]
+\rule{0.9\textwidth}{0.6pt}\\[1cm]
 
-    %% شعار المؤسسة (احذف هذا السطر إن لم يكن لديك شعار)
-    %% \includegraphics[width=3cm]{logo.png}\\[1cm]
+%% ─── صندوق العنوان الرئيسي ────────────────────────────────
+\setlength{\fboxsep}{18pt}
+\fcolorbox{white}{white}{\color{maincolor}%
+\parbox{0.82\textwidth}{\centering
+    {\LARGE\bfseries الشغل المؤقت والمناولة}\\[0.5cm]
+    {\large\bfseries في ضوء مدونة الشغل المغربية}\\[0.4cm]
+    \rule{0.55\textwidth}{0.8pt}\\[0.4cm]
+    {\normalsize دراسة قانونية وتطبيقية — دراسة الحالة: المجموعة \textenglish{8}}
+}}
 
-    \vspace{1cm}
+\vspace{1.5cm}
 
-    %% ─── الصندوق الرئيسي للعنوان ─────────────────────────
-    \fcolorbox{white}{white}{\color{maincolor}
-        \begin{minipage}{0.85\textwidth}
-            \centering
-            \vspace{0.8cm}
-            {\LARGE\bfseries الشغل المؤقت والمناولة}\\[0.5cm]
-            {\large\bfseries في ضوء مدونة الشغل المغربية}\\[0.4cm]
-            \noindent\rule{0.6\textwidth}{1pt}\\[0.4cm]
-            {\normalsize\itshape دراسة قانونية وتطبيقية — دراسة الحالة: المجموعة 8}
-            \vspace{0.8cm}
-        \end{minipage}
-    }
+%% ─── بيانات الإعداد ──────────────────────────────────────
+{\large\bfseries إعداد الطلاب:}\\[0.4cm]
+{\large الاسم الكامل للطالب الأول}\\[0.15cm]
+{\large الاسم الكامل للطالب الثاني}\\[0.15cm]
+{\large الاسم الكامل للطالب الثالث}\\[0.8cm]
 
-    \vspace{1.5cm}
+\rule{0.9\textwidth}{0.5pt}\\[0.5cm]
 
-    %% ─── بيانات الإعداد ───────────────────────────────────
-    \begin{minipage}{0.75\textwidth}
-        \centering
-        \large
-        \begin{tabular}{c}
-            \textbf{إعداد الطلاب:}\\[0.3cm]
-            الاسم الكامل للطالب الأول\\[0.1cm]
-            الاسم الكامل للطالب الثاني\\[0.1cm]
-            الاسم الكامل للطالب الثالث\\
-        \end{tabular}
-    \end{minipage}
+%% ─── المشرف ──────────────────────────────────────────────
+{\large\bfseries تحت إشراف الأستاذ(ة):}\\[0.3cm]
+{\large الاسم الكامل للأستاذ المشرف}\\[0.8cm]
 
-    \vspace{1.2cm}
-    \noindent\rule{\textwidth}{0.5pt}
+\rule{0.9\textwidth}{0.5pt}\\[0.5cm]
 
-    \vspace{0.5cm}
-
-    %% ─── المشرف ──────────────────────────────────────────
-    \large
-    \textbf{تحت إشراف الأستاذ(ة):}\\[0.2cm]
-    الاسم الكامل للأستاذ المشرف
-
-    \vspace{1.2cm}
-    \noindent\rule{\textwidth}{0.5pt}
-
-    \vspace{0.5cm}
-
-    %% ─── السنة الدراسية والوحدة ───────────────────────────
-    {\normalsize
-        \textbf{الوحدة الدراسية:} قانون الشغل والعلاقات المهنية\\[0.3cm]
-        \textbf{السنة الدراسية:} \textenglish{2025 - 2026}
-    }
-\end{center}
+%% ─── الوحدة والسنة الدراسية ──────────────────────────────
+{\normalsize\bfseries الوحدة الدراسية:}
+{\normalsize قانون الشغل والعلاقات المهنية}\\[0.3cm]
+{\normalsize\bfseries السنة الدراسية:}
+{\normalsize \textenglish{2025 -- 2026}}
 
 \vfill
 
-%% ─── شريط سفلي ───────────────────────────────────────────
-\begin{center}
-    \noindent\rule{\textwidth}{0.5pt}\\[0.3cm]
-    {\small السنة الدراسية \textenglish{2025-2026} \quad|\quad جميع الحقوق محفوظة}
-\end{center}
+\rule{0.9\textwidth}{0.5pt}\\[0.3cm]
+{\small \textenglish{2025-2026} \quad|\quad جميع الحقوق محفوظة}
 
+} %% end \centering
 \end{titlepage}
 
 %% إعادة اللون الأبيض للخلفية بعد الغلاف
