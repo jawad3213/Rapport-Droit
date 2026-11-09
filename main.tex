@@ -40,8 +40,20 @@
 \newfontfamily\arabicfont[
     Script=Arabic,
     Scale=1.1,
-    Ligatures=TeX
-]{Amiri}                        % خط أميري (يمكن تغييره إلى Scheherazade New)
+    Ligatures=TeX,
+    BoldFont={Amiri-Bold.ttf},
+    ItalicFont={Amiri-Italic.ttf},
+    BoldItalicFont={Amiri-BoldItalic.ttf}
+]{Amiri-Regular.ttf}
+
+\setmainfont[
+    Script=Arabic,
+    Scale=1.1,
+    Ligatures=TeX,
+    BoldFont={Amiri-Bold.ttf},
+    ItalicFont={Amiri-Italic.ttf},
+    BoldItalicFont={Amiri-BoldItalic.ttf}
+]{Amiri-Regular.ttf}
 
 %% خط أحادي المسافة
 \setmonofont{Courier New}
