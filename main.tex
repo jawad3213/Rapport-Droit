@@ -39,6 +39,22 @@
 \setotherlanguage{french}
 \setotherlanguage{english}
 
+%% تعديل تسميات polyglossia الافتراضية («باب» -> «الفصل»، «المحتويات» -> «فهرس التقرير»)
+\makeatletter
+\gappto\captionsarabic{%
+  \def\chaptername{\@ensure@RTL{الفصل}}%
+  \def\contentsname{\@ensure@RTL{فهرس التقرير}}%
+}
+\makeatother
+
+%% صيغة الترتيب العربي للفصول مع الحفاظ على \thechapter رقمياً لترقيم المباحث
+\newcommand{\arabicchapterordinal}[1]{%
+  \ifcase#1\relax
+  \or الأول\or الثاني\or الثالث\or الرابع\or الخامس%
+  \or السادس\or السابع\or الثامن\or التاسع\or العاشر%
+  \else #1\fi%
+}
+
 \newfontfamily\arabicfont[
     Script=Arabic,
     Scale=1.1,
@@ -78,7 +94,14 @@
 %% ─── تنسيق العناوين ──────────────────────────────────────
 \titleformat{\chapter}[display]
   {\normalfont\huge\bfseries\color{maincolor}}
-  {\chaptertitlename\ \thechapter}{20pt}{\Huge}
+  {\chaptertitlename\ \arabicchapterordinal{\value{chapter}}}{20pt}{\Huge}
+
+%% تنسيق ظهور الفصول في فهرس التقرير بصيغة «الفصل الأول: ...»
+\titlecontents{chapter}[0pt]
+  {\addvspace{1.0em}\bfseries}
+  {الفصل \arabicchapterordinal{\thecontentslabel}: }
+  {}
+  {\hfill\contentspage}
 
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{sectioncolor}}
